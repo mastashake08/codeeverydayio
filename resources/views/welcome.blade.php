@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>{{env('APP_NAME')}}</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet" type="text/css">
@@ -13,6 +13,8 @@
         <style>
             html, body {
                 background-color: #fff;
+                background-image: url('/img/background1.jpg');
+                background-size: cover;
                 color: #636b6f;
                 font-family: 'Nunito', sans-serif;
                 font-weight: 200;
@@ -81,16 +83,16 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    {{env('APP_NAME')}}
                 </div>
 
                 <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <a href="#">About</a>
+                    <a href="#">Developers</a>
+                    <a href="#">Recruiters</a>
+                    <a href="#">Jobs</a>
+                    <a href="#">Contact</a>
+                    <a href="#">Privacy</a>
                 </div>
             </div>
         </div>
