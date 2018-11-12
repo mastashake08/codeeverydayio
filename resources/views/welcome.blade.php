@@ -13,9 +13,9 @@
         <style>
             html, body {
                 background-color: #fff;
-                background-image: url('/img/background1.jpg');
+                //background-image: url('/img/background1.jpg');
                 background-size: cover;
-                color: #fff;
+                color: #636b6f;
                 font-family: 'Nunito', sans-serif;
                 font-weight: 200;
                 height: 100vh;
