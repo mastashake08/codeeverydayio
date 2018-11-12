@@ -15,7 +15,7 @@
                 background-color: #fff;
                 background-image: url('/img/background1.jpg');
                 background-size: cover;
-                color: #636b6f;
+                color: #fff;
                 font-family: 'Nunito', sans-serif;
                 font-weight: 200;
                 height: 100vh;
